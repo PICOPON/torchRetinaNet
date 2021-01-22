@@ -1,5 +1,5 @@
 # torchRetinaNet
- implementation for retinaNet
+ Implementation for retinaNet based on pytorch. Support the pre-trained weights(resnet18, resnet50,...)
 ## Install
 > pip install requirements  
 

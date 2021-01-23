@@ -71,7 +71,7 @@ _C.DATA = CN()
 # 由于在使用时,是自己的数据集.所以这里,并没有写0712合并的数据集格式,这里以VOC2007为例
 _C.DATA.DATASET = CN()
 _C.DATA.DATASET.NUM_CLASSES =3
-_C.DATA.DATASET.CLASS_NAME = ('groove','needle','__background__')
+_C.DATA.DATASET.CLASS_NAME = ('__background__','groove','needle')
 
 
 _C.DATA.DATASET.DATA_DIR = './Data/voc_data/VOCdevkit/VOC2007'   # 数据集voc格式,根目录   请更改为自己的目录
